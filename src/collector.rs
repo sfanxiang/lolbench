@@ -89,7 +89,7 @@ impl Collector {
             self.storage.push()?;
         }
 
-        build_website(&self.data_dir, &self.site_dir, publish)?;
+        // build_website(&self.data_dir, &self.site_dir, publish)?;
 
         Ok(())
     }
