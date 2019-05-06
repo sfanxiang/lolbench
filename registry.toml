@@ -1251,16 +1251,6 @@ name = 'uint_8::read_native_endian'
 crate = 'byteorder_1_2_6'
 entrypoint_path = 'benches/byteorder_1_2_6/src/bin/uint-8-read-native-endian.rs'
 
-[benchmarks."byteorder_1_2_6::write_little_endian"]
-name = 'write_little_endian'
-crate = 'byteorder_1_2_6'
-entrypoint_path = 'benches/byteorder_1_2_6/src/bin/write-little-endian.rs'
-
-[benchmarks."byteorder_1_2_6::write_native_endian"]
-name = 'write_native_endian'
-crate = 'byteorder_1_2_6'
-entrypoint_path = 'benches/byteorder_1_2_6/src/bin/write-native-endian.rs'
-
 [benchmarks."clap_2_31_2::_01_default::build_app"]
 name = '_01_default::build_app'
 crate = 'clap_2_31_2'
