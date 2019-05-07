@@ -1,7 +1,10 @@
 workers = [
     'molly',
+    'molly2',
     'sally',
+    'sally2',
     'wilhelm',
+    'wilhelm2',
 ]
 [benchmarks."brotli_1_1_3::bench_e2e_decode_q5_1024k"]
 runner = 'sally'
@@ -2091,7 +2094,7 @@ crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-f64-6-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_f64_7_tuple"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'shrink_f64_7_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-f64-7-tuple.rs'
@@ -2115,19 +2118,19 @@ crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-i64-2-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_i64_3_tuple"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'shrink_i64_3_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-i64-3-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_i64_4_tuple"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'shrink_i64_4_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-i64-4-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_i64_5_tuple"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'shrink_i64_5_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-i64-5-tuple.rs'
@@ -2169,7 +2172,7 @@ crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-string-3-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_string_4_tuple"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'shrink_string_4_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-string-4-tuple.rs'
@@ -2187,49 +2190,49 @@ crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-string-6-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_string_7_tuple"]
-runner = 'molly'
+runner = 'molly2'
 name = 'shrink_string_7_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-string-7-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_string_8_tuple"]
-runner = 'molly'
+runner = 'molly2'
 name = 'shrink_string_8_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-string-8-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_u64_1_tuple"]
-runner = 'molly'
+runner = 'molly2'
 name = 'shrink_u64_1_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-u64-1-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_u64_2_tuple"]
-runner = 'molly'
+runner = 'molly2'
 name = 'shrink_u64_2_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-u64-2-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_u64_3_tuple"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'shrink_u64_3_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-u64-3-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_u64_4_tuple"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'shrink_u64_4_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-u64-4-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_u64_5_tuple"]
-runner = 'molly'
+runner = 'molly2'
 name = 'shrink_u64_5_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-u64-5-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_u64_6_tuple"]
-runner = 'molly'
+runner = 'molly2'
 name = 'shrink_u64_6_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-u64-6-tuple.rs'
@@ -2241,7 +2244,7 @@ crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-u64-7-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_u64_8_tuple"]
-runner = 'molly'
+runner = 'molly2'
 name = 'shrink_u64_8_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-u64-8-tuple.rs'
@@ -2253,1675 +2256,1675 @@ crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-unit-1-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_unit_2_tuple"]
-runner = 'sally'
+runner = 'sally2'
 name = 'shrink_unit_2_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-unit-2-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_unit_3_tuple"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'shrink_unit_3_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-unit-3-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_unit_4_tuple"]
-runner = 'molly'
+runner = 'molly2'
 name = 'shrink_unit_4_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-unit-4-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_unit_5_tuple"]
-runner = 'sally'
+runner = 'sally2'
 name = 'shrink_unit_5_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-unit-5-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_unit_6_tuple"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'shrink_unit_6_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-unit-6-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_unit_7_tuple"]
-runner = 'molly'
+runner = 'molly2'
 name = 'shrink_unit_7_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-unit-7-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_unit_8_tuple"]
-runner = 'sally'
+runner = 'sally2'
 name = 'shrink_unit_8_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-unit-8-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_vec_u8_1_tuple"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'shrink_vec_u8_1_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-vec-u8-1-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_vec_u8_2_tuple"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'shrink_vec_u8_2_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-vec-u8-2-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_vec_u8_3_tuple"]
-runner = 'sally'
+runner = 'sally2'
 name = 'shrink_vec_u8_3_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-vec-u8-3-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_vec_u8_4_tuple"]
-runner = 'molly'
+runner = 'molly2'
 name = 'shrink_vec_u8_4_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-vec-u8-4-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_vec_u8_5_tuple"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'shrink_vec_u8_5_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-vec-u8-5-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_vec_u8_6_tuple"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'shrink_vec_u8_6_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-vec-u8-6-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_vec_u8_7_tuple"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'shrink_vec_u8_7_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-vec-u8-7-tuple.rs'
 
 [benchmarks."quickcheck_0_6_1::shrink_vec_u8_8_tuple"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'shrink_vec_u8_8_tuple'
 crate = 'quickcheck_0_6_1'
 entrypoint_path = 'benches/quickcheck_0_6_1/src/bin/shrink-vec-u8-8-tuple.rs'
 
 [benchmarks."rayon_1_0_0::factorial::factorial_iterator"]
-runner = 'molly'
+runner = 'molly2'
 name = 'factorial::factorial_iterator'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/factorial-factorial-iterator.rs'
 
 [benchmarks."rayon_1_0_0::factorial::factorial_join"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'factorial::factorial_join'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/factorial-factorial-join.rs'
 
 [benchmarks."rayon_1_0_0::factorial::factorial_par_iter"]
-runner = 'sally'
+runner = 'sally2'
 name = 'factorial::factorial_par_iter'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/factorial-factorial-par-iter.rs'
 
 [benchmarks."rayon_1_0_0::factorial::factorial_recursion"]
-runner = 'molly'
+runner = 'molly2'
 name = 'factorial::factorial_recursion'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/factorial-factorial-recursion.rs'
 
 [benchmarks."rayon_1_0_0::fibonacci::fibonacci_iterative"]
-runner = 'molly'
+runner = 'molly2'
 name = 'fibonacci::fibonacci_iterative'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/fibonacci-fibonacci-iterative.rs'
 
 [benchmarks."rayon_1_0_0::fibonacci::fibonacci_join_1_2"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'fibonacci::fibonacci_join_1_2'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/fibonacci-fibonacci-join-1-2.rs'
 
 [benchmarks."rayon_1_0_0::fibonacci::fibonacci_join_2_1"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'fibonacci::fibonacci_join_2_1'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/fibonacci-fibonacci-join-2-1.rs'
 
 [benchmarks."rayon_1_0_0::fibonacci::fibonacci_recursive"]
-runner = 'molly'
+runner = 'molly2'
 name = 'fibonacci::fibonacci_recursive'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/fibonacci-fibonacci-recursive.rs'
 
 [benchmarks."rayon_1_0_0::fibonacci::fibonacci_split_iterative"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'fibonacci::fibonacci_split_iterative'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/fibonacci-fibonacci-split-iterative.rs'
 
 [benchmarks."rayon_1_0_0::fibonacci::fibonacci_split_recursive"]
-runner = 'sally'
+runner = 'sally2'
 name = 'fibonacci::fibonacci_split_recursive'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/fibonacci-fibonacci-split-recursive.rs'
 
 [benchmarks."rayon_1_0_0::find::parallel_find_common"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'find::parallel_find_common'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/find-parallel-find-common.rs'
 
 [benchmarks."rayon_1_0_0::find::parallel_find_first"]
-runner = 'sally'
+runner = 'sally2'
 name = 'find::parallel_find_first'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/find-parallel-find-first.rs'
 
 [benchmarks."rayon_1_0_0::find::parallel_find_last"]
-runner = 'molly'
+runner = 'molly2'
 name = 'find::parallel_find_last'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/find-parallel-find-last.rs'
 
 [benchmarks."rayon_1_0_0::find::parallel_find_middle"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'find::parallel_find_middle'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/find-parallel-find-middle.rs'
 
 [benchmarks."rayon_1_0_0::find::parallel_find_missing"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'find::parallel_find_missing'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/find-parallel-find-missing.rs'
 
 [benchmarks."rayon_1_0_0::find::serial_find_common"]
-runner = 'molly'
+runner = 'molly2'
 name = 'find::serial_find_common'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/find-serial-find-common.rs'
 
 [benchmarks."rayon_1_0_0::find::serial_find_first"]
-runner = 'molly'
+runner = 'molly2'
 name = 'find::serial_find_first'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/find-serial-find-first.rs'
 
 [benchmarks."rayon_1_0_0::find::serial_find_last"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'find::serial_find_last'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/find-serial-find-last.rs'
 
 [benchmarks."rayon_1_0_0::find::serial_find_middle"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'find::serial_find_middle'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/find-serial-find-middle.rs'
 
 [benchmarks."rayon_1_0_0::find::serial_find_missing"]
-runner = 'sally'
+runner = 'sally2'
 name = 'find::serial_find_missing'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/find-serial-find-missing.rs'
 
 [benchmarks."rayon_1_0_0::join_microbench::increment_all"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'join_microbench::increment_all'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/join-microbench-increment-all.rs'
 
 [benchmarks."rayon_1_0_0::join_microbench::increment_all_atomized"]
-runner = 'sally'
+runner = 'sally2'
 name = 'join_microbench::increment_all_atomized'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/join-microbench-increment-all-atomized.rs'
 
 [benchmarks."rayon_1_0_0::join_microbench::increment_all_max"]
-runner = 'molly'
+runner = 'molly2'
 name = 'join_microbench::increment_all_max'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/join-microbench-increment-all-max.rs'
 
 [benchmarks."rayon_1_0_0::join_microbench::increment_all_min"]
-runner = 'sally'
+runner = 'sally2'
 name = 'join_microbench::increment_all_min'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/join-microbench-increment-all-min.rs'
 
 [benchmarks."rayon_1_0_0::join_microbench::increment_all_serialized"]
-runner = 'molly'
+runner = 'molly2'
 name = 'join_microbench::increment_all_serialized'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/join-microbench-increment-all-serialized.rs'
 
 [benchmarks."rayon_1_0_0::join_microbench::join_recursively"]
-runner = 'sally'
+runner = 'sally2'
 name = 'join_microbench::join_recursively'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/join-microbench-join-recursively.rs'
 
 [benchmarks."rayon_1_0_0::life::bench::generations"]
-runner = 'molly'
+runner = 'molly2'
 name = 'life::bench::generations'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/life-bench-generations.rs'
 
 [benchmarks."rayon_1_0_0::life::bench::parallel_generations"]
-runner = 'sally'
+runner = 'sally2'
 name = 'life::bench::parallel_generations'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/life-bench-parallel-generations.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_mod_10_to_i::with_collect"]
-runner = 'molly'
+runner = 'molly2'
 name = 'map_collect::i_mod_10_to_i::with_collect'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-mod-10-to-i-with-collect.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_mod_10_to_i::with_fold"]
-runner = 'molly'
+runner = 'molly2'
 name = 'map_collect::i_mod_10_to_i::with_fold'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-mod-10-to-i-with-fold.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_mod_10_to_i::with_fold_vec"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'map_collect::i_mod_10_to_i::with_fold_vec'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-mod-10-to-i-with-fold-vec.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_mod_10_to_i::with_linked_list_collect"]
-runner = 'sally'
+runner = 'sally2'
 name = 'map_collect::i_mod_10_to_i::with_linked_list_collect'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-mod-10-to-i-with-linked-list-collect.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_mod_10_to_i::with_linked_list_collect_vec"]
-runner = 'molly'
+runner = 'molly2'
 name = 'map_collect::i_mod_10_to_i::with_linked_list_collect_vec'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-mod-10-to-i-with-linked-list-collect-vec.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_mod_10_to_i::with_linked_list_collect_vec_sized"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'map_collect::i_mod_10_to_i::with_linked_list_collect_vec_sized'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-mod-10-to-i-with-linked-list-collect-vec-sized.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_mod_10_to_i::with_linked_list_map_reduce_vec_sized"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'map_collect::i_mod_10_to_i::with_linked_list_map_reduce_vec_sized'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-mod-10-to-i-with-linked-list-map-reduce-vec-sized.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_mod_10_to_i::with_mutex"]
-runner = 'molly'
+runner = 'molly2'
 name = 'map_collect::i_mod_10_to_i::with_mutex'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-mod-10-to-i-with-mutex.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_mod_10_to_i::with_mutex_vec"]
-runner = 'molly'
+runner = 'molly2'
 name = 'map_collect::i_mod_10_to_i::with_mutex_vec'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-mod-10-to-i-with-mutex-vec.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_mod_10_to_i::with_vec_vec_sized"]
-runner = 'molly'
+runner = 'molly2'
 name = 'map_collect::i_mod_10_to_i::with_vec_vec_sized'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-mod-10-to-i-with-vec-vec-sized.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_to_i::with_collect"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'map_collect::i_to_i::with_collect'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-collect.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_to_i::with_fold"]
-runner = 'sally'
+runner = 'sally2'
 name = 'map_collect::i_to_i::with_fold'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-fold.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_to_i::with_fold_vec"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'map_collect::i_to_i::with_fold_vec'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-fold-vec.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_to_i::with_linked_list_collect"]
-runner = 'sally'
+runner = 'sally2'
 name = 'map_collect::i_to_i::with_linked_list_collect'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-linked-list-collect.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_to_i::with_linked_list_collect_vec"]
-runner = 'molly'
+runner = 'molly2'
 name = 'map_collect::i_to_i::with_linked_list_collect_vec'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-linked-list-collect-vec.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_to_i::with_linked_list_collect_vec_sized"]
-runner = 'sally'
+runner = 'sally2'
 name = 'map_collect::i_to_i::with_linked_list_collect_vec_sized'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-linked-list-collect-vec-sized.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_to_i::with_linked_list_map_reduce_vec_sized"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'map_collect::i_to_i::with_linked_list_map_reduce_vec_sized'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-linked-list-map-reduce-vec-sized.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_to_i::with_mutex"]
-runner = 'sally'
+runner = 'sally2'
 name = 'map_collect::i_to_i::with_mutex'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-mutex.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_to_i::with_mutex_vec"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'map_collect::i_to_i::with_mutex_vec'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-mutex-vec.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_to_i::with_vec_vec_sized"]
-runner = 'sally'
+runner = 'sally2'
 name = 'map_collect::i_to_i::with_vec_vec_sized'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-vec-vec-sized.rs'
 
 [benchmarks."rayon_1_0_0::matmul::bench::bench_matmul_strassen"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'matmul::bench::bench_matmul_strassen'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/matmul-bench-bench-matmul-strassen.rs'
 
 [benchmarks."rayon_1_0_0::mergesort::bench::merge_sort_par_bench"]
-runner = 'sally'
+runner = 'sally2'
 name = 'mergesort::bench::merge_sort_par_bench'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/mergesort-bench-merge-sort-par-bench.rs'
 
 [benchmarks."rayon_1_0_0::mergesort::bench::merge_sort_seq_bench"]
-runner = 'molly'
+runner = 'molly2'
 name = 'mergesort::bench::merge_sort_seq_bench'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/mergesort-bench-merge-sort-seq-bench.rs'
 
 [benchmarks."rayon_1_0_0::nbody::bench::nbody_par"]
-runner = 'molly'
+runner = 'molly2'
 name = 'nbody::bench::nbody_par'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/nbody-bench-nbody-par.rs'
 
 [benchmarks."rayon_1_0_0::nbody::bench::nbody_parreduce"]
-runner = 'molly'
+runner = 'molly2'
 name = 'nbody::bench::nbody_parreduce'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/nbody-bench-nbody-parreduce.rs'
 
 [benchmarks."rayon_1_0_0::nbody::bench::nbody_seq"]
-runner = 'molly'
+runner = 'molly2'
 name = 'nbody::bench::nbody_seq'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/nbody-bench-nbody-seq.rs'
 
 [benchmarks."rayon_1_0_0::pythagoras::euclid_faux_serial"]
-runner = 'molly'
+runner = 'molly2'
 name = 'pythagoras::euclid_faux_serial'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/pythagoras-euclid-faux-serial.rs'
 
 [benchmarks."rayon_1_0_0::pythagoras::euclid_parallel_full"]
-runner = 'sally'
+runner = 'sally2'
 name = 'pythagoras::euclid_parallel_full'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/pythagoras-euclid-parallel-full.rs'
 
 [benchmarks."rayon_1_0_0::pythagoras::euclid_parallel_one"]
-runner = 'sally'
+runner = 'sally2'
 name = 'pythagoras::euclid_parallel_one'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/pythagoras-euclid-parallel-one.rs'
 
 [benchmarks."rayon_1_0_0::pythagoras::euclid_parallel_outer"]
-runner = 'molly'
+runner = 'molly2'
 name = 'pythagoras::euclid_parallel_outer'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/pythagoras-euclid-parallel-outer.rs'
 
 [benchmarks."rayon_1_0_0::pythagoras::euclid_parallel_weightless"]
-runner = 'molly'
+runner = 'molly2'
 name = 'pythagoras::euclid_parallel_weightless'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/pythagoras-euclid-parallel-weightless.rs'
 
 [benchmarks."rayon_1_0_0::pythagoras::euclid_serial"]
-runner = 'sally'
+runner = 'sally2'
 name = 'pythagoras::euclid_serial'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/pythagoras-euclid-serial.rs'
 
 [benchmarks."rayon_1_0_0::quicksort::bench::quick_sort_par_bench"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'quicksort::bench::quick_sort_par_bench'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/quicksort-bench-quick-sort-par-bench.rs'
 
 [benchmarks."rayon_1_0_0::quicksort::bench::quick_sort_seq_bench"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'quicksort::bench::quick_sort_seq_bench'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/quicksort-bench-quick-sort-seq-bench.rs'
 
 [benchmarks."rayon_1_0_0::quicksort::bench::quick_sort_splitter"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'quicksort::bench::quick_sort_splitter'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/quicksort-bench-quick-sort-splitter.rs'
 
 [benchmarks."rayon_1_0_0::sieve::bench::sieve_chunks"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sieve::bench::sieve_chunks'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sieve-bench-sieve-chunks.rs'
 
 [benchmarks."rayon_1_0_0::sieve::bench::sieve_parallel"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sieve::bench::sieve_parallel'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sieve-bench-sieve-parallel.rs'
 
 [benchmarks."rayon_1_0_0::sieve::bench::sieve_serial"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sieve::bench::sieve_serial'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sieve-bench-sieve-serial.rs'
 
 [benchmarks."rayon_1_0_0::sort::demo_merge_sort_ascending"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sort::demo_merge_sort_ascending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-merge-sort-ascending.rs'
 
 [benchmarks."rayon_1_0_0::sort::demo_merge_sort_big"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sort::demo_merge_sort_big'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-merge-sort-big.rs'
 
 [benchmarks."rayon_1_0_0::sort::demo_merge_sort_descending"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sort::demo_merge_sort_descending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-merge-sort-descending.rs'
 
 [benchmarks."rayon_1_0_0::sort::demo_merge_sort_mostly_ascending"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sort::demo_merge_sort_mostly_ascending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-merge-sort-mostly-ascending.rs'
 
 [benchmarks."rayon_1_0_0::sort::demo_merge_sort_mostly_descending"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sort::demo_merge_sort_mostly_descending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-merge-sort-mostly-descending.rs'
 
 [benchmarks."rayon_1_0_0::sort::demo_merge_sort_random"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sort::demo_merge_sort_random'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-merge-sort-random.rs'
 
 [benchmarks."rayon_1_0_0::sort::demo_merge_sort_strings"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sort::demo_merge_sort_strings'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-merge-sort-strings.rs'
 
 [benchmarks."rayon_1_0_0::sort::demo_quick_sort_big"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sort::demo_quick_sort_big'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-quick-sort-big.rs'
 
 [benchmarks."rayon_1_0_0::sort::demo_quick_sort_mostly_ascending"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sort::demo_quick_sort_mostly_ascending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-quick-sort-mostly-ascending.rs'
 
 [benchmarks."rayon_1_0_0::sort::demo_quick_sort_mostly_descending"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sort::demo_quick_sort_mostly_descending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-quick-sort-mostly-descending.rs'
 
 [benchmarks."rayon_1_0_0::sort::demo_quick_sort_random"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sort::demo_quick_sort_random'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-quick-sort-random.rs'
 
 [benchmarks."rayon_1_0_0::sort::demo_quick_sort_strings"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sort::demo_quick_sort_strings'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-quick-sort-strings.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_ascending"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sort::par_sort_ascending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-ascending.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_big"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sort::par_sort_big'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-big.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_descending"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sort::par_sort_descending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-descending.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_expensive"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sort::par_sort_expensive'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-expensive.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_mostly_ascending"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sort::par_sort_mostly_ascending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-mostly-ascending.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_mostly_descending"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sort::par_sort_mostly_descending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-mostly-descending.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_random"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sort::par_sort_random'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-random.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_strings"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sort::par_sort_strings'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-strings.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_unstable_ascending"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sort::par_sort_unstable_ascending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-unstable-ascending.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_unstable_big"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sort::par_sort_unstable_big'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-unstable-big.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_unstable_descending"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sort::par_sort_unstable_descending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-unstable-descending.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_unstable_expensive"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sort::par_sort_unstable_expensive'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-unstable-expensive.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_unstable_mostly_ascending"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sort::par_sort_unstable_mostly_ascending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-unstable-mostly-ascending.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_unstable_mostly_descending"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sort::par_sort_unstable_mostly_descending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-unstable-mostly-descending.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_unstable_random"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sort::par_sort_unstable_random'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-unstable-random.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_unstable_strings"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sort::par_sort_unstable_strings'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-unstable-strings.rs'
 
 [benchmarks."rayon_1_0_0::str_split::parallel_space_char"]
-runner = 'molly'
+runner = 'molly2'
 name = 'str_split::parallel_space_char'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/str-split-parallel-space-char.rs'
 
 [benchmarks."rayon_1_0_0::str_split::parallel_space_fn"]
-runner = 'molly'
+runner = 'molly2'
 name = 'str_split::parallel_space_fn'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/str-split-parallel-space-fn.rs'
 
 [benchmarks."rayon_1_0_0::str_split::serial_space_char"]
-runner = 'molly'
+runner = 'molly2'
 name = 'str_split::serial_space_char'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/str-split-serial-space-char.rs'
 
 [benchmarks."rayon_1_0_0::str_split::serial_space_fn"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'str_split::serial_space_fn'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/str-split-serial-space-fn.rs'
 
 [benchmarks."rayon_1_0_0::str_split::serial_space_str"]
-runner = 'sally'
+runner = 'sally2'
 name = 'str_split::serial_space_str'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/str-split-serial-space-str.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i::with_collect"]
-runner = 'sally'
+runner = 'sally2'
 name = 'vec_collect::vec_i::with_collect'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-with-collect.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i::with_collect_into_vec"]
-runner = 'molly'
+runner = 'molly2'
 name = 'vec_collect::vec_i::with_collect_into_vec'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-with-collect-into-vec.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i::with_collect_into_vec_reused"]
-runner = 'molly'
+runner = 'molly2'
 name = 'vec_collect::vec_i::with_collect_into_vec_reused'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-with-collect-into-vec-reused.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i::with_fold"]
-runner = 'molly'
+runner = 'molly2'
 name = 'vec_collect::vec_i::with_fold'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-with-fold.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i::with_linked_list_collect_vec"]
-runner = 'sally'
+runner = 'sally2'
 name = 'vec_collect::vec_i::with_linked_list_collect_vec'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-with-linked-list-collect-vec.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i::with_linked_list_collect_vec_sized"]
-runner = 'molly'
+runner = 'molly2'
 name = 'vec_collect::vec_i::with_linked_list_collect_vec_sized'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-with-linked-list-collect-vec-sized.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i::with_linked_list_map_reduce_vec_sized"]
-runner = 'sally'
+runner = 'sally2'
 name = 'vec_collect::vec_i::with_linked_list_map_reduce_vec_sized'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-with-linked-list-map-reduce-vec-sized.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i::with_vec_vec_sized"]
-runner = 'molly'
+runner = 'molly2'
 name = 'vec_collect::vec_i::with_vec_vec_sized'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-with-vec-vec-sized.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i_filtered::with_collect"]
-runner = 'sally'
+runner = 'sally2'
 name = 'vec_collect::vec_i_filtered::with_collect'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-filtered-with-collect.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i_filtered::with_fold"]
-runner = 'sally'
+runner = 'sally2'
 name = 'vec_collect::vec_i_filtered::with_fold'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-filtered-with-fold.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i_filtered::with_linked_list_collect_vec"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'vec_collect::vec_i_filtered::with_linked_list_collect_vec'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-filtered-with-linked-list-collect-vec.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i_filtered::with_linked_list_collect_vec_sized"]
-runner = 'sally'
+runner = 'sally2'
 name = 'vec_collect::vec_i_filtered::with_linked_list_collect_vec_sized'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-filtered-with-linked-list-collect-vec-sized.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i_filtered::with_linked_list_map_reduce_vec_sized"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'vec_collect::vec_i_filtered::with_linked_list_map_reduce_vec_sized'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-filtered-with-linked-list-map-reduce-vec-sized.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i_filtered::with_vec_vec_sized"]
-runner = 'sally'
+runner = 'sally2'
 name = 'vec_collect::vec_i_filtered::with_vec_vec_sized'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-filtered-with-vec-vec-sized.rs'
 
 [benchmarks."raytrace_8de9020::raytrace_random_scenes"]
-runner = 'sally'
+runner = 'sally2'
 name = 'raytrace_random_scenes'
 crate = 'raytrace_8de9020'
 entrypoint_path = 'benches/raytrace_8de9020/src/bin/raytrace-random-scenes.rs'
 
 [benchmarks."regex_0_2_6::misc::anchored_literal_long_match"]
-runner = 'molly'
+runner = 'molly2'
 name = 'misc::anchored_literal_long_match'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-anchored-literal-long-match.rs'
 
 [benchmarks."regex_0_2_6::misc::anchored_literal_long_non_match"]
-runner = 'molly'
+runner = 'molly2'
 name = 'misc::anchored_literal_long_non_match'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-anchored-literal-long-non-match.rs'
 
 [benchmarks."regex_0_2_6::misc::anchored_literal_short_match"]
-runner = 'molly'
+runner = 'molly2'
 name = 'misc::anchored_literal_short_match'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-anchored-literal-short-match.rs'
 
 [benchmarks."regex_0_2_6::misc::anchored_literal_short_non_match"]
-runner = 'sally'
+runner = 'sally2'
 name = 'misc::anchored_literal_short_non_match'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-anchored-literal-short-non-match.rs'
 
 [benchmarks."regex_0_2_6::misc::easy0_1K"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'misc::easy0_1K'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-easy0-1k.rs'
 
 [benchmarks."regex_0_2_6::misc::easy0_1MB"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'misc::easy0_1MB'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-easy0-1mb.rs'
 
 [benchmarks."regex_0_2_6::misc::easy0_32"]
-runner = 'sally'
+runner = 'sally2'
 name = 'misc::easy0_32'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-easy0-32.rs'
 
 [benchmarks."regex_0_2_6::misc::easy0_32K"]
-runner = 'molly'
+runner = 'molly2'
 name = 'misc::easy0_32K'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-easy0-32k.rs'
 
 [benchmarks."regex_0_2_6::misc::easy1_1K"]
-runner = 'molly'
+runner = 'molly2'
 name = 'misc::easy1_1K'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-easy1-1k.rs'
 
 [benchmarks."regex_0_2_6::misc::easy1_1MB"]
-runner = 'sally'
+runner = 'sally2'
 name = 'misc::easy1_1MB'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-easy1-1mb.rs'
 
 [benchmarks."regex_0_2_6::misc::easy1_32"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'misc::easy1_32'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-easy1-32.rs'
 
 [benchmarks."regex_0_2_6::misc::easy1_32K"]
-runner = 'molly'
+runner = 'molly2'
 name = 'misc::easy1_32K'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-easy1-32k.rs'
 
 [benchmarks."regex_0_2_6::misc::hard_1K"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'misc::hard_1K'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-hard-1k.rs'
 
 [benchmarks."regex_0_2_6::misc::hard_1MB"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'misc::hard_1MB'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-hard-1mb.rs'
 
 [benchmarks."regex_0_2_6::misc::hard_32"]
-runner = 'sally'
+runner = 'sally2'
 name = 'misc::hard_32'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-hard-32.rs'
 
 [benchmarks."regex_0_2_6::misc::hard_32K"]
-runner = 'sally'
+runner = 'sally2'
 name = 'misc::hard_32K'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-hard-32k.rs'
 
 [benchmarks."regex_0_2_6::misc::literal"]
-runner = 'molly'
+runner = 'molly2'
 name = 'misc::literal'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-literal.rs'
 
 [benchmarks."regex_0_2_6::misc::long_needle1"]
-runner = 'sally'
+runner = 'sally2'
 name = 'misc::long_needle1'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-long-needle1.rs'
 
 [benchmarks."regex_0_2_6::misc::long_needle2"]
-runner = 'sally'
+runner = 'sally2'
 name = 'misc::long_needle2'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-long-needle2.rs'
 
 [benchmarks."regex_0_2_6::misc::match_class"]
-runner = 'molly'
+runner = 'molly2'
 name = 'misc::match_class'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-match-class.rs'
 
 [benchmarks."regex_0_2_6::misc::match_class_in_range"]
-runner = 'sally'
+runner = 'sally2'
 name = 'misc::match_class_in_range'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-match-class-in-range.rs'
 
 [benchmarks."regex_0_2_6::misc::medium_1K"]
-runner = 'molly'
+runner = 'molly2'
 name = 'misc::medium_1K'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-medium-1k.rs'
 
 [benchmarks."regex_0_2_6::misc::medium_1MB"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'misc::medium_1MB'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-medium-1mb.rs'
 
 [benchmarks."regex_0_2_6::misc::medium_32"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'misc::medium_32'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-medium-32.rs'
 
 [benchmarks."regex_0_2_6::misc::medium_32K"]
-runner = 'sally'
+runner = 'sally2'
 name = 'misc::medium_32K'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-medium-32k.rs'
 
 [benchmarks."regex_0_2_6::misc::not_literal"]
-runner = 'sally'
+runner = 'sally2'
 name = 'misc::not_literal'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-not-literal.rs'
 
 [benchmarks."regex_0_2_6::misc::one_pass_long_prefix"]
-runner = 'molly'
+runner = 'molly2'
 name = 'misc::one_pass_long_prefix'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-one-pass-long-prefix.rs'
 
 [benchmarks."regex_0_2_6::misc::one_pass_long_prefix_not"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'misc::one_pass_long_prefix_not'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-one-pass-long-prefix-not.rs'
 
 [benchmarks."regex_0_2_6::misc::one_pass_short"]
-runner = 'sally'
+runner = 'sally2'
 name = 'misc::one_pass_short'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-one-pass-short.rs'
 
 [benchmarks."regex_0_2_6::misc::one_pass_short_not"]
-runner = 'sally'
+runner = 'sally2'
 name = 'misc::one_pass_short_not'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-one-pass-short-not.rs'
 
 [benchmarks."regex_0_2_6::misc::reallyhard2_1K"]
-runner = 'molly'
+runner = 'molly2'
 name = 'misc::reallyhard2_1K'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-reallyhard2-1k.rs'
 
 [benchmarks."regex_0_2_6::misc::reallyhard_1K"]
-runner = 'molly'
+runner = 'molly2'
 name = 'misc::reallyhard_1K'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-reallyhard-1k.rs'
 
 [benchmarks."regex_0_2_6::misc::reallyhard_1MB"]
-runner = 'molly'
+runner = 'molly2'
 name = 'misc::reallyhard_1MB'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-reallyhard-1mb.rs'
 
 [benchmarks."regex_0_2_6::misc::reallyhard_32"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'misc::reallyhard_32'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-reallyhard-32.rs'
 
 [benchmarks."regex_0_2_6::misc::reallyhard_32K"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'misc::reallyhard_32K'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-reallyhard-32k.rs'
 
 [benchmarks."regex_0_2_6::misc::replace_all"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'misc::replace_all'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-replace-all.rs'
 
 [benchmarks."regex_0_2_6::misc::reverse_suffix_no_quadratic"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'misc::reverse_suffix_no_quadratic'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-reverse-suffix-no-quadratic.rs'
 
 [benchmarks."regex_0_2_6::misc::short_haystack_1000000x"]
-runner = 'sally'
+runner = 'sally2'
 name = 'misc::short_haystack_1000000x'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-short-haystack-1000000x.rs'
 
 [benchmarks."regex_0_2_6::misc::short_haystack_100000x"]
-runner = 'sally'
+runner = 'sally2'
 name = 'misc::short_haystack_100000x'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-short-haystack-100000x.rs'
 
 [benchmarks."regex_0_2_6::misc::short_haystack_10000x"]
-runner = 'molly'
+runner = 'molly2'
 name = 'misc::short_haystack_10000x'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-short-haystack-10000x.rs'
 
 [benchmarks."regex_0_2_6::misc::short_haystack_1000x"]
-runner = 'sally'
+runner = 'sally2'
 name = 'misc::short_haystack_1000x'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-short-haystack-1000x.rs'
 
 [benchmarks."regex_0_2_6::misc::short_haystack_100x"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'misc::short_haystack_100x'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-short-haystack-100x.rs'
 
 [benchmarks."regex_0_2_6::misc::short_haystack_10x"]
-runner = 'sally'
+runner = 'sally2'
 name = 'misc::short_haystack_10x'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-short-haystack-10x.rs'
 
 [benchmarks."regex_0_2_6::misc::short_haystack_1x"]
-runner = 'molly'
+runner = 'molly2'
 name = 'misc::short_haystack_1x'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-short-haystack-1x.rs'
 
 [benchmarks."regex_0_2_6::misc::short_haystack_2x"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'misc::short_haystack_2x'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-short-haystack-2x.rs'
 
 [benchmarks."regex_0_2_6::misc::short_haystack_3x"]
-runner = 'sally'
+runner = 'sally2'
 name = 'misc::short_haystack_3x'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-short-haystack-3x.rs'
 
 [benchmarks."regex_0_2_6::misc::short_haystack_4x"]
-runner = 'molly'
+runner = 'molly2'
 name = 'misc::short_haystack_4x'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-short-haystack-4x.rs'
 
 [benchmarks."regex_0_2_6::regexdna::find_new_lines"]
-runner = 'molly'
+runner = 'molly2'
 name = 'regexdna::find_new_lines'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-find-new-lines.rs'
 
 [benchmarks."regex_0_2_6::regexdna::subst1"]
-runner = 'sally'
+runner = 'sally2'
 name = 'regexdna::subst1'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-subst1.rs'
 
 [benchmarks."regex_0_2_6::regexdna::subst10"]
-runner = 'molly'
+runner = 'molly2'
 name = 'regexdna::subst10'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-subst10.rs'
 
 [benchmarks."regex_0_2_6::regexdna::subst11"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'regexdna::subst11'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-subst11.rs'
 
 [benchmarks."regex_0_2_6::regexdna::subst2"]
-runner = 'sally'
+runner = 'sally2'
 name = 'regexdna::subst2'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-subst2.rs'
 
 [benchmarks."regex_0_2_6::regexdna::subst3"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'regexdna::subst3'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-subst3.rs'
 
 [benchmarks."regex_0_2_6::regexdna::subst4"]
-runner = 'molly'
+runner = 'molly2'
 name = 'regexdna::subst4'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-subst4.rs'
 
 [benchmarks."regex_0_2_6::regexdna::subst5"]
-runner = 'sally'
+runner = 'sally2'
 name = 'regexdna::subst5'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-subst5.rs'
 
 [benchmarks."regex_0_2_6::regexdna::subst6"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'regexdna::subst6'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-subst6.rs'
 
 [benchmarks."regex_0_2_6::regexdna::subst7"]
-runner = 'molly'
+runner = 'molly2'
 name = 'regexdna::subst7'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-subst7.rs'
 
 [benchmarks."regex_0_2_6::regexdna::subst8"]
-runner = 'sally'
+runner = 'sally2'
 name = 'regexdna::subst8'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-subst8.rs'
 
 [benchmarks."regex_0_2_6::regexdna::subst9"]
-runner = 'molly'
+runner = 'molly2'
 name = 'regexdna::subst9'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-subst9.rs'
 
 [benchmarks."regex_0_2_6::regexdna::variant1"]
-runner = 'molly'
+runner = 'molly2'
 name = 'regexdna::variant1'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-variant1.rs'
 
 [benchmarks."regex_0_2_6::regexdna::variant2"]
-runner = 'molly'
+runner = 'molly2'
 name = 'regexdna::variant2'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-variant2.rs'
 
 [benchmarks."regex_0_2_6::regexdna::variant3"]
-runner = 'sally'
+runner = 'sally2'
 name = 'regexdna::variant3'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-variant3.rs'
 
 [benchmarks."regex_0_2_6::regexdna::variant4"]
-runner = 'sally'
+runner = 'sally2'
 name = 'regexdna::variant4'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-variant4.rs'
 
 [benchmarks."regex_0_2_6::regexdna::variant5"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'regexdna::variant5'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-variant5.rs'
 
 [benchmarks."regex_0_2_6::regexdna::variant6"]
-runner = 'molly'
+runner = 'molly2'
 name = 'regexdna::variant6'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-variant6.rs'
 
 [benchmarks."regex_0_2_6::regexdna::variant7"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'regexdna::variant7'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-variant7.rs'
 
 [benchmarks."regex_0_2_6::regexdna::variant8"]
-runner = 'sally'
+runner = 'sally2'
 name = 'regexdna::variant8'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-variant8.rs'
 
 [benchmarks."regex_0_2_6::regexdna::variant9"]
-runner = 'sally'
+runner = 'sally2'
 name = 'regexdna::variant9'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/regexdna-variant9.rs'
 
 [benchmarks."regex_0_2_6::rust_parse::parse_huge"]
-runner = 'molly'
+runner = 'molly2'
 name = 'rust_parse::parse_huge'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/rust-parse-parse-huge.rs'
 
 [benchmarks."regex_0_2_6::rust_parse::parse_simple"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'rust_parse::parse_simple'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/rust-parse-parse-simple.rs'
 
 [benchmarks."regex_0_2_6::rust_parse::parse_simple2"]
-runner = 'sally'
+runner = 'sally2'
 name = 'rust_parse::parse_simple2'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/rust-parse-parse-simple2.rs'
 
 [benchmarks."regex_0_2_6::rust_parse::parse_small"]
-runner = 'molly'
+runner = 'molly2'
 name = 'rust_parse::parse_small'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/rust-parse-parse-small.rs'
 
 [benchmarks."regex_0_2_6::sherlock::before_after_holmes"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sherlock::before_after_holmes'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-before-after-holmes.rs'
 
 [benchmarks."regex_0_2_6::sherlock::before_holmes"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sherlock::before_holmes'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-before-holmes.rs'
 
 [benchmarks."regex_0_2_6::sherlock::everything_greedy"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sherlock::everything_greedy'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-everything-greedy.rs'
 
 [benchmarks."regex_0_2_6::sherlock::everything_greedy_nl"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sherlock::everything_greedy_nl'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-everything-greedy-nl.rs'
 
 [benchmarks."regex_0_2_6::sherlock::holmes_cochar_watson"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sherlock::holmes_cochar_watson'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-holmes-cochar-watson.rs'
 
 [benchmarks."regex_0_2_6::sherlock::holmes_coword_watson"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sherlock::holmes_coword_watson'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-holmes-coword-watson.rs'
 
 [benchmarks."regex_0_2_6::sherlock::ing_suffix"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sherlock::ing_suffix'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-ing-suffix.rs'
 
 [benchmarks."regex_0_2_6::sherlock::ing_suffix_limited_space"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sherlock::ing_suffix_limited_space'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-ing-suffix-limited-space.rs'
 
 [benchmarks."regex_0_2_6::sherlock::letters"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sherlock::letters'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-letters.rs'
 
 [benchmarks."regex_0_2_6::sherlock::letters_lower"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sherlock::letters_lower'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-letters-lower.rs'
 
 [benchmarks."regex_0_2_6::sherlock::letters_upper"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sherlock::letters_upper'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-letters-upper.rs'
 
 [benchmarks."regex_0_2_6::sherlock::line_boundary_sherlock_holmes"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sherlock::line_boundary_sherlock_holmes'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-line-boundary-sherlock-holmes.rs'
 
 [benchmarks."regex_0_2_6::sherlock::name_alt1"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sherlock::name_alt1'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-name-alt1.rs'
 
 [benchmarks."regex_0_2_6::sherlock::name_alt2"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sherlock::name_alt2'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-name-alt2.rs'
 
 [benchmarks."regex_0_2_6::sherlock::name_alt3"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sherlock::name_alt3'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-name-alt3.rs'
 
 [benchmarks."regex_0_2_6::sherlock::name_alt3_nocase"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sherlock::name_alt3_nocase'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-name-alt3-nocase.rs'
 
 [benchmarks."regex_0_2_6::sherlock::name_alt4"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sherlock::name_alt4'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-name-alt4.rs'
 
 [benchmarks."regex_0_2_6::sherlock::name_alt4_nocase"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sherlock::name_alt4_nocase'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-name-alt4-nocase.rs'
 
 [benchmarks."regex_0_2_6::sherlock::name_alt5"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sherlock::name_alt5'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-name-alt5.rs'
 
 [benchmarks."regex_0_2_6::sherlock::name_alt5_nocase"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sherlock::name_alt5_nocase'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-name-alt5-nocase.rs'
 
 [benchmarks."regex_0_2_6::sherlock::name_holmes"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sherlock::name_holmes'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-name-holmes.rs'
 
 [benchmarks."regex_0_2_6::sherlock::name_holmes_nocase"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sherlock::name_holmes_nocase'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-name-holmes-nocase.rs'
 
 [benchmarks."regex_0_2_6::sherlock::name_sherlock"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sherlock::name_sherlock'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-name-sherlock.rs'
 
 [benchmarks."regex_0_2_6::sherlock::name_sherlock_holmes"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sherlock::name_sherlock_holmes'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-name-sherlock-holmes.rs'
 
 [benchmarks."regex_0_2_6::sherlock::name_sherlock_holmes_nocase"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sherlock::name_sherlock_holmes_nocase'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-name-sherlock-holmes-nocase.rs'
 
 [benchmarks."regex_0_2_6::sherlock::name_sherlock_nocase"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sherlock::name_sherlock_nocase'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-name-sherlock-nocase.rs'
 
 [benchmarks."regex_0_2_6::sherlock::name_whitespace"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sherlock::name_whitespace'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-name-whitespace.rs'
 
 [benchmarks."regex_0_2_6::sherlock::no_match_common"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sherlock::no_match_common'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-no-match-common.rs'
 
 [benchmarks."regex_0_2_6::sherlock::no_match_really_common"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sherlock::no_match_really_common'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-no-match-really-common.rs'
 
 [benchmarks."regex_0_2_6::sherlock::no_match_uncommon"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sherlock::no_match_uncommon'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-no-match-uncommon.rs'
 
 [benchmarks."regex_0_2_6::sherlock::quotes"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sherlock::quotes'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-quotes.rs'
 
 [benchmarks."regex_0_2_6::sherlock::repeated_class_negation"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sherlock::repeated_class_negation'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-repeated-class-negation.rs'
 
 [benchmarks."regex_0_2_6::sherlock::the_lower"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sherlock::the_lower'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-the-lower.rs'
 
 [benchmarks."regex_0_2_6::sherlock::the_nocase"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sherlock::the_nocase'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-the-nocase.rs'
 
 [benchmarks."regex_0_2_6::sherlock::the_upper"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sherlock::the_upper'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-the-upper.rs'
 
 [benchmarks."regex_0_2_6::sherlock::the_whitespace"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sherlock::the_whitespace'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-the-whitespace.rs'
 
 [benchmarks."regex_0_2_6::sherlock::word_ending_n"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sherlock::word_ending_n'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-word-ending-n.rs'
 
 [benchmarks."regex_0_2_6::sherlock::words"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sherlock::words'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/sherlock-words.rs'
 
 [benchmarks."sha2_0_8_0::sha256::bench1_10"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sha256::bench1_10'
 crate = 'sha2_0_8_0'
 entrypoint_path = 'benches/sha2_0_8_0/src/bin/sha256-bench1-10.rs'
 
 [benchmarks."sha2_0_8_0::sha256::bench2_100"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sha256::bench2_100'
 crate = 'sha2_0_8_0'
 entrypoint_path = 'benches/sha2_0_8_0/src/bin/sha256-bench2-100.rs'
 
 [benchmarks."sha2_0_8_0::sha256::bench3_1000"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sha256::bench3_1000'
 crate = 'sha2_0_8_0'
 entrypoint_path = 'benches/sha2_0_8_0/src/bin/sha256-bench3-1000.rs'
 
 [benchmarks."sha2_0_8_0::sha256::bench4_10000"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sha256::bench4_10000'
 crate = 'sha2_0_8_0'
 entrypoint_path = 'benches/sha2_0_8_0/src/bin/sha256-bench4-10000.rs'
 
 [benchmarks."sha2_0_8_0::sha512::bench1_10"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sha512::bench1_10'
 crate = 'sha2_0_8_0'
 entrypoint_path = 'benches/sha2_0_8_0/src/bin/sha512-bench1-10.rs'
 
 [benchmarks."sha2_0_8_0::sha512::bench2_100"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sha512::bench2_100'
 crate = 'sha2_0_8_0'
 entrypoint_path = 'benches/sha2_0_8_0/src/bin/sha512-bench2-100.rs'
 
 [benchmarks."sha2_0_8_0::sha512::bench3_1000"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sha512::bench3_1000'
 crate = 'sha2_0_8_0'
 entrypoint_path = 'benches/sha2_0_8_0/src/bin/sha512-bench3-1000.rs'
 
 [benchmarks."sha2_0_8_0::sha512::bench4_10000"]
-runner = 'molly'
+runner = 'molly2'
 name = 'sha512::bench4_10000'
 crate = 'sha2_0_8_0'
 entrypoint_path = 'benches/sha2_0_8_0/src/bin/sha512-bench4-10000.rs'
 
 [benchmarks."sha3_0_8_0::sha3_256::bench1_10"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sha3_256::bench1_10'
 crate = 'sha3_0_8_0'
 entrypoint_path = 'benches/sha3_0_8_0/src/bin/sha3-256-bench1-10.rs'
 
 [benchmarks."sha3_0_8_0::sha3_256::bench2_100"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sha3_256::bench2_100'
 crate = 'sha3_0_8_0'
 entrypoint_path = 'benches/sha3_0_8_0/src/bin/sha3-256-bench2-100.rs'
 
 [benchmarks."sha3_0_8_0::sha3_256::bench3_1000"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sha3_256::bench3_1000'
 crate = 'sha3_0_8_0'
 entrypoint_path = 'benches/sha3_0_8_0/src/bin/sha3-256-bench3-1000.rs'
 
 [benchmarks."sha3_0_8_0::sha3_256::bench4_10000"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sha3_256::bench4_10000'
 crate = 'sha3_0_8_0'
 entrypoint_path = 'benches/sha3_0_8_0/src/bin/sha3-256-bench4-10000.rs'
 
 [benchmarks."sha3_0_8_0::sha3_512::bench1_10"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sha3_512::bench1_10'
 crate = 'sha3_0_8_0'
 entrypoint_path = 'benches/sha3_0_8_0/src/bin/sha3-512-bench1-10.rs'
 
 [benchmarks."sha3_0_8_0::sha3_512::bench2_100"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sha3_512::bench2_100'
 crate = 'sha3_0_8_0'
 entrypoint_path = 'benches/sha3_0_8_0/src/bin/sha3-512-bench2-100.rs'
 
 [benchmarks."sha3_0_8_0::sha3_512::bench3_1000"]
-runner = 'sally'
+runner = 'sally2'
 name = 'sha3_512::bench3_1000'
 crate = 'sha3_0_8_0'
 entrypoint_path = 'benches/sha3_0_8_0/src/bin/sha3-512-bench3-1000.rs'
 
 [benchmarks."sha3_0_8_0::sha3_512::bench4_10000"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'sha3_512::bench4_10000'
 crate = 'sha3_0_8_0'
 entrypoint_path = 'benches/sha3_0_8_0/src/bin/sha3-512-bench4-10000.rs'
 
 [benchmarks."snap_0_2_4::uflat00_html"]
-runner = 'molly'
+runner = 'molly2'
 name = 'uflat00_html'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/uflat00-html.rs'
 
 [benchmarks."snap_0_2_4::uflat01_urls"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'uflat01_urls'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/uflat01-urls.rs'
 
 [benchmarks."snap_0_2_4::uflat02_jpg"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'uflat02_jpg'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/uflat02-jpg.rs'
 
 [benchmarks."snap_0_2_4::uflat03_jpg_200"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'uflat03_jpg_200'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/uflat03-jpg-200.rs'
 
 [benchmarks."snap_0_2_4::uflat04_pdf"]
-runner = 'sally'
+runner = 'sally2'
 name = 'uflat04_pdf'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/uflat04-pdf.rs'
 
 [benchmarks."snap_0_2_4::uflat05_html4"]
-runner = 'molly'
+runner = 'molly2'
 name = 'uflat05_html4'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/uflat05-html4.rs'
 
 [benchmarks."snap_0_2_4::uflat06_txt1"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'uflat06_txt1'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/uflat06-txt1.rs'
 
 [benchmarks."snap_0_2_4::uflat07_txt2"]
-runner = 'sally'
+runner = 'sally2'
 name = 'uflat07_txt2'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/uflat07-txt2.rs'
 
 [benchmarks."snap_0_2_4::uflat08_txt3"]
-runner = 'sally'
+runner = 'sally2'
 name = 'uflat08_txt3'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/uflat08-txt3.rs'
 
 [benchmarks."snap_0_2_4::uflat09_txt4"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'uflat09_txt4'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/uflat09-txt4.rs'
 
 [benchmarks."snap_0_2_4::uflat10_pb"]
-runner = 'sally'
+runner = 'sally2'
 name = 'uflat10_pb'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/uflat10-pb.rs'
 
 [benchmarks."snap_0_2_4::uflat11_gaviota"]
-runner = 'molly'
+runner = 'molly2'
 name = 'uflat11_gaviota'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/uflat11-gaviota.rs'
 
 [benchmarks."snap_0_2_4::zflat00_html"]
-runner = 'sally'
+runner = 'sally2'
 name = 'zflat00_html'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/zflat00-html.rs'
 
 [benchmarks."snap_0_2_4::zflat01_urls"]
-runner = 'molly'
+runner = 'molly2'
 name = 'zflat01_urls'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/zflat01-urls.rs'
 
 [benchmarks."snap_0_2_4::zflat02_jpg"]
-runner = 'molly'
+runner = 'molly2'
 name = 'zflat02_jpg'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/zflat02-jpg.rs'
 
 [benchmarks."snap_0_2_4::zflat03_jpg_200"]
-runner = 'sally'
+runner = 'sally2'
 name = 'zflat03_jpg_200'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/zflat03-jpg-200.rs'
 
 [benchmarks."snap_0_2_4::zflat04_pdf"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'zflat04_pdf'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/zflat04-pdf.rs'
 
 [benchmarks."snap_0_2_4::zflat05_html4"]
-runner = 'molly'
+runner = 'molly2'
 name = 'zflat05_html4'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/zflat05-html4.rs'
 
 [benchmarks."snap_0_2_4::zflat06_txt1"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'zflat06_txt1'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/zflat06-txt1.rs'
 
 [benchmarks."snap_0_2_4::zflat07_txt2"]
-runner = 'sally'
+runner = 'sally2'
 name = 'zflat07_txt2'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/zflat07-txt2.rs'
 
 [benchmarks."snap_0_2_4::zflat08_txt3"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'zflat08_txt3'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/zflat08-txt3.rs'
 
 [benchmarks."snap_0_2_4::zflat09_txt4"]
-runner = 'sally'
+runner = 'sally2'
 name = 'zflat09_txt4'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/zflat09-txt4.rs'
 
 [benchmarks."snap_0_2_4::zflat10_pb"]
-runner = 'wilhelm'
+runner = 'wilhelm2'
 name = 'zflat10_pb'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/zflat10-pb.rs'
 
 [benchmarks."snap_0_2_4::zflat11_gaviota"]
-runner = 'sally'
+runner = 'sally2'
 name = 'zflat11_gaviota'
 crate = 'snap_0_2_4'
 entrypoint_path = 'benches/snap_0_2_4/src/bin/zflat11-gaviota.rs'
