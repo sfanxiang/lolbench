@@ -1,4 +1,6 @@
 workers = [
+    'freedoom1',
+    'freedoom2',
     'molly',
     'molly2',
     'molly3',
@@ -1956,13 +1958,13 @@ crate = 'diesel_1_1_1'
 entrypoint_path = 'benches/diesel_1_1_1/src/bin/bench-trivial-query-selecting-1-row-boxed.rs'
 
 [benchmarks."doom_9e197d7::freedoom1"]
-runner = 'wilhelm4'
+runner = 'freedoom1'
 name = 'freedoom1'
 crate = 'doom_9e197d7'
 entrypoint_path = 'benches/doom_9e197d7/src/bin/freedoom1.rs'
 
 [benchmarks."doom_9e197d7::freedoom2"]
-runner = 'molly4'
+runner = 'freedoom2'
 name = 'freedoom2'
 crate = 'doom_9e197d7'
 entrypoint_path = 'benches/doom_9e197d7/src/bin/freedoom2.rs'
