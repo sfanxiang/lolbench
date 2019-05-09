@@ -1,12 +1,14 @@
 workers = [
     'freedoom1',
     'freedoom2',
+    'brotli_1_1_3_bench_e2e_rt_q9_5_1024k',
     'molly',
     'molly2',
     'molly3',
     'molly4',
     'molly5',
     'molly6',
+    'molly6-2',
     'molly7',
     'molly8',
     'sally',
@@ -14,7 +16,9 @@ workers = [
     'sally3',
     'sally4',
     'sally5',
+    'sally5-2',
     'sally6',
+    'sally6-2',
     'sally7',
     'sally8',
     'wilhelm',
@@ -51,7 +55,7 @@ crate = 'brotli_1_1_3'
 entrypoint_path = 'benches/brotli_1_1_3/src/bin/bench-e2e-rt-q9-1024k.rs'
 
 [benchmarks."brotli_1_1_3::bench_e2e_rt_q9_5_1024k"]
-runner = 'wilhelm'
+runner = 'brotli_1_1_3_bench_e2e_rt_q9_5_1024k'
 name = 'bench_e2e_rt_q9_5_1024k'
 crate = 'brotli_1_1_3'
 entrypoint_path = 'benches/brotli_1_1_3/src/bin/bench-e2e-rt-q9-5-1024k.rs'
@@ -2552,7 +2556,7 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-mod-10-to-i-with-fold-vec.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_mod_10_to_i::with_linked_list_collect"]
-runner = 'sally5'
+runner = 'sally5-2'
 name = 'map_collect::i_mod_10_to_i::with_linked_list_collect'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-mod-10-to-i-with-linked-list-collect.rs'
@@ -2600,7 +2604,7 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-collect.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_to_i::with_fold"]
-runner = 'sally5'
+runner = 'sally5-2'
 name = 'map_collect::i_to_i::with_fold'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-fold.rs'
@@ -2612,7 +2616,7 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-fold-vec.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_to_i::with_linked_list_collect"]
-runner = 'sally5'
+runner = 'sally5-2'
 name = 'map_collect::i_to_i::with_linked_list_collect'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-linked-list-collect.rs'
@@ -2624,7 +2628,7 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-linked-list-collect-vec.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_to_i::with_linked_list_collect_vec_sized"]
-runner = 'sally5'
+runner = 'sally5-2'
 name = 'map_collect::i_to_i::with_linked_list_collect_vec_sized'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-linked-list-collect-vec-sized.rs'
@@ -2636,7 +2640,7 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-linked-list-map-reduce-vec-sized.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_to_i::with_mutex"]
-runner = 'sally5'
+runner = 'sally5-2'
 name = 'map_collect::i_to_i::with_mutex'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-mutex.rs'
@@ -2648,7 +2652,7 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-mutex-vec.rs'
 
 [benchmarks."rayon_1_0_0::map_collect::i_to_i::with_vec_vec_sized"]
-runner = 'sally5'
+runner = 'sally5-2'
 name = 'map_collect::i_to_i::with_vec_vec_sized'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/map-collect-i-to-i-with-vec-vec-sized.rs'
@@ -2660,7 +2664,7 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/matmul-bench-bench-matmul-strassen.rs'
 
 [benchmarks."rayon_1_0_0::mergesort::bench::merge_sort_par_bench"]
-runner = 'sally5'
+runner = 'sally5-2'
 name = 'mergesort::bench::merge_sort_par_bench'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/mergesort-bench-merge-sort-par-bench.rs'
@@ -2696,13 +2700,13 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/pythagoras-euclid-faux-serial.rs'
 
 [benchmarks."rayon_1_0_0::pythagoras::euclid_parallel_full"]
-runner = 'sally5'
+runner = 'sally5-2'
 name = 'pythagoras::euclid_parallel_full'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/pythagoras-euclid-parallel-full.rs'
 
 [benchmarks."rayon_1_0_0::pythagoras::euclid_parallel_one"]
-runner = 'sally5'
+runner = 'sally5-2'
 name = 'pythagoras::euclid_parallel_one'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/pythagoras-euclid-parallel-one.rs'
@@ -2720,7 +2724,7 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/pythagoras-euclid-parallel-weightless.rs'
 
 [benchmarks."rayon_1_0_0::pythagoras::euclid_serial"]
-runner = 'sally5'
+runner = 'sally5-2'
 name = 'pythagoras::euclid_serial'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/pythagoras-euclid-serial.rs'
@@ -2756,7 +2760,7 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sieve-bench-sieve-parallel.rs'
 
 [benchmarks."rayon_1_0_0::sieve::bench::sieve_serial"]
-runner = 'molly6'
+runner = 'molly6-2'
 name = 'sieve::bench::sieve_serial'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sieve-bench-sieve-serial.rs'
@@ -2774,7 +2778,7 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-merge-sort-big.rs'
 
 [benchmarks."rayon_1_0_0::sort::demo_merge_sort_descending"]
-runner = 'sally5'
+runner = 'sally5-2'
 name = 'sort::demo_merge_sort_descending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-merge-sort-descending.rs'
@@ -2816,7 +2820,7 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-quick-sort-mostly-ascending.rs'
 
 [benchmarks."rayon_1_0_0::sort::demo_quick_sort_mostly_descending"]
-runner = 'molly6'
+runner = 'molly6-2'
 name = 'sort::demo_quick_sort_mostly_descending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-quick-sort-mostly-descending.rs'
@@ -2828,13 +2832,13 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-quick-sort-random.rs'
 
 [benchmarks."rayon_1_0_0::sort::demo_quick_sort_strings"]
-runner = 'molly6'
+runner = 'molly6-2'
 name = 'sort::demo_quick_sort_strings'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-quick-sort-strings.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_ascending"]
-runner = 'molly6'
+runner = 'molly6-2'
 name = 'sort::par_sort_ascending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-ascending.rs'
@@ -2858,31 +2862,31 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-expensive.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_mostly_ascending"]
-runner = 'molly6'
+runner = 'molly6-2'
 name = 'sort::par_sort_mostly_ascending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-mostly-ascending.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_mostly_descending"]
-runner = 'molly6'
+runner = 'molly6-2'
 name = 'sort::par_sort_mostly_descending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-mostly-descending.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_random"]
-runner = 'molly6'
+runner = 'molly6-2'
 name = 'sort::par_sort_random'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-random.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_strings"]
-runner = 'molly6'
+runner = 'molly6-2'
 name = 'sort::par_sort_strings'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-strings.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_unstable_ascending"]
-runner = 'molly6'
+runner = 'molly6-2'
 name = 'sort::par_sort_unstable_ascending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-unstable-ascending.rs'
@@ -2930,19 +2934,19 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-unstable-strings.rs'
 
 [benchmarks."rayon_1_0_0::str_split::parallel_space_char"]
-runner = 'molly6'
+runner = 'molly6-2'
 name = 'str_split::parallel_space_char'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/str-split-parallel-space-char.rs'
 
 [benchmarks."rayon_1_0_0::str_split::parallel_space_fn"]
-runner = 'molly6'
+runner = 'molly6-2'
 name = 'str_split::parallel_space_fn'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/str-split-parallel-space-fn.rs'
 
 [benchmarks."rayon_1_0_0::str_split::serial_space_char"]
-runner = 'molly6'
+runner = 'molly6-2'
 name = 'str_split::serial_space_char'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/str-split-serial-space-char.rs'
@@ -3008,13 +3012,13 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-with-vec-vec-sized.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i_filtered::with_collect"]
-runner = 'sally6'
+runner = 'sally6-2'
 name = 'vec_collect::vec_i_filtered::with_collect'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-filtered-with-collect.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i_filtered::with_fold"]
-runner = 'sally6'
+runner = 'sally6-2'
 name = 'vec_collect::vec_i_filtered::with_fold'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-filtered-with-fold.rs'
@@ -3026,7 +3030,7 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-filtered-with-linked-list-collect-vec.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i_filtered::with_linked_list_collect_vec_sized"]
-runner = 'sally6'
+runner = 'sally6-2'
 name = 'vec_collect::vec_i_filtered::with_linked_list_collect_vec_sized'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-filtered-with-linked-list-collect-vec-sized.rs'
@@ -3038,13 +3042,13 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-filtered-with-linked-list-map-reduce-vec-sized.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i_filtered::with_vec_vec_sized"]
-runner = 'sally6'
+runner = 'sally6-2'
 name = 'vec_collect::vec_i_filtered::with_vec_vec_sized'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-filtered-with-vec-vec-sized.rs'
 
 [benchmarks."raytrace_8de9020::raytrace_random_scenes"]
-runner = 'sally6'
+runner = 'sally6-2'
 name = 'raytrace_random_scenes'
 crate = 'raytrace_8de9020'
 entrypoint_path = 'benches/raytrace_8de9020/src/bin/raytrace-random-scenes.rs'
@@ -3068,7 +3072,7 @@ crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-anchored-literal-short-match.rs'
 
 [benchmarks."regex_0_2_6::misc::anchored_literal_short_non_match"]
-runner = 'sally6'
+runner = 'sally6-2'
 name = 'misc::anchored_literal_short_non_match'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-anchored-literal-short-non-match.rs'
@@ -3086,7 +3090,7 @@ crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-easy0-1mb.rs'
 
 [benchmarks."regex_0_2_6::misc::easy0_32"]
-runner = 'sally6'
+runner = 'sally6-2'
 name = 'misc::easy0_32'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-easy0-32.rs'
@@ -3104,7 +3108,7 @@ crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-easy1-1k.rs'
 
 [benchmarks."regex_0_2_6::misc::easy1_1MB"]
-runner = 'sally6'
+runner = 'sally6-2'
 name = 'misc::easy1_1MB'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-easy1-1mb.rs'
@@ -3134,13 +3138,13 @@ crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-hard-1mb.rs'
 
 [benchmarks."regex_0_2_6::misc::hard_32"]
-runner = 'sally6'
+runner = 'sally6-2'
 name = 'misc::hard_32'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-hard-32.rs'
 
 [benchmarks."regex_0_2_6::misc::hard_32K"]
-runner = 'sally6'
+runner = 'sally6-2'
 name = 'misc::hard_32K'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-hard-32k.rs'
@@ -3152,7 +3156,7 @@ crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-literal.rs'
 
 [benchmarks."regex_0_2_6::misc::long_needle1"]
-runner = 'sally6'
+runner = 'sally6-2'
 name = 'misc::long_needle1'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-long-needle1.rs'
