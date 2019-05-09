@@ -9,6 +9,7 @@ workers = [
     'molly5',
     'molly6',
     'molly6-2',
+    'molly6-3',
     'molly7',
     'molly8',
     'sally',
@@ -2713,13 +2714,13 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/pythagoras-euclid-parallel-one.rs'
 
 [benchmarks."rayon_1_0_0::pythagoras::euclid_parallel_outer"]
-runner = 'molly6'
+runner = 'molly6-2'
 name = 'pythagoras::euclid_parallel_outer'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/pythagoras-euclid-parallel-outer.rs'
 
 [benchmarks."rayon_1_0_0::pythagoras::euclid_parallel_weightless"]
-runner = 'molly6'
+runner = 'molly6-2'
 name = 'pythagoras::euclid_parallel_weightless'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/pythagoras-euclid-parallel-weightless.rs'
@@ -2749,13 +2750,13 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/quicksort-bench-quick-sort-splitter.rs'
 
 [benchmarks."rayon_1_0_0::sieve::bench::sieve_chunks"]
-runner = 'molly6'
+runner = 'molly6-2'
 name = 'sieve::bench::sieve_chunks'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sieve-bench-sieve-chunks.rs'
 
 [benchmarks."rayon_1_0_0::sieve::bench::sieve_parallel"]
-runner = 'molly6'
+runner = 'molly6-2'
 name = 'sieve::bench::sieve_parallel'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sieve-bench-sieve-parallel.rs'
@@ -2863,31 +2864,31 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-expensive.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_mostly_ascending"]
-runner = 'molly6-2'
+runner = 'molly6-3'
 name = 'sort::par_sort_mostly_ascending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-mostly-ascending.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_mostly_descending"]
-runner = 'molly6-2'
+runner = 'molly6-3'
 name = 'sort::par_sort_mostly_descending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-mostly-descending.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_random"]
-runner = 'molly6-2'
+runner = 'molly6-3'
 name = 'sort::par_sort_random'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-random.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_strings"]
-runner = 'molly6-2'
+runner = 'molly6-3'
 name = 'sort::par_sort_strings'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-strings.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_unstable_ascending"]
-runner = 'molly6-2'
+runner = 'molly6-3'
 name = 'sort::par_sort_unstable_ascending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-unstable-ascending.rs'
@@ -2935,19 +2936,19 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-unstable-strings.rs'
 
 [benchmarks."rayon_1_0_0::str_split::parallel_space_char"]
-runner = 'molly6-2'
+runner = 'molly6-3'
 name = 'str_split::parallel_space_char'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/str-split-parallel-space-char.rs'
 
 [benchmarks."rayon_1_0_0::str_split::parallel_space_fn"]
-runner = 'molly6-2'
+runner = 'molly6-3'
 name = 'str_split::parallel_space_fn'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/str-split-parallel-space-fn.rs'
 
 [benchmarks."rayon_1_0_0::str_split::serial_space_char"]
-runner = 'molly6-2'
+runner = 'molly6-3'
 name = 'str_split::serial_space_char'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/str-split-serial-space-char.rs'
