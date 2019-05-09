@@ -27,6 +27,7 @@ workers = [
     'wilhelm4',
     'wilhelm5',
     'wilhelm6',
+    'wilhelm6-2',
     'wilhelm7',
     'wilhelm8',
 ]
@@ -2796,7 +2797,7 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-merge-sort-mostly-descending.rs'
 
 [benchmarks."rayon_1_0_0::sort::demo_merge_sort_random"]
-runner = 'wilhelm6'
+runner = 'wilhelm6-2'
 name = 'sort::demo_merge_sort_random'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-merge-sort-random.rs'
@@ -2808,13 +2809,13 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-merge-sort-strings.rs'
 
 [benchmarks."rayon_1_0_0::sort::demo_quick_sort_big"]
-runner = 'wilhelm6'
+runner = 'wilhelm6-2'
 name = 'sort::demo_quick_sort_big'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-quick-sort-big.rs'
 
 [benchmarks."rayon_1_0_0::sort::demo_quick_sort_mostly_ascending"]
-runner = 'wilhelm6'
+runner = 'wilhelm6-2'
 name = 'sort::demo_quick_sort_mostly_ascending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-demo-quick-sort-mostly-ascending.rs'
@@ -2856,7 +2857,7 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-descending.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_expensive"]
-runner = 'wilhelm6'
+runner = 'wilhelm6-2'
 name = 'sort::par_sort_expensive'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-expensive.rs'
@@ -2892,19 +2893,19 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-unstable-ascending.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_unstable_big"]
-runner = 'wilhelm6'
+runner = 'wilhelm6-2'
 name = 'sort::par_sort_unstable_big'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-unstable-big.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_unstable_descending"]
-runner = 'wilhelm6'
+runner = 'wilhelm6-2'
 name = 'sort::par_sort_unstable_descending'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-unstable-descending.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_unstable_expensive"]
-runner = 'wilhelm6'
+runner = 'wilhelm6-2'
 name = 'sort::par_sort_unstable_expensive'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-unstable-expensive.rs'
@@ -2928,7 +2929,7 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-unstable-random.rs'
 
 [benchmarks."rayon_1_0_0::sort::par_sort_unstable_strings"]
-runner = 'wilhelm6'
+runner = 'wilhelm6-2'
 name = 'sort::par_sort_unstable_strings'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/sort-par-sort-unstable-strings.rs'
@@ -2952,7 +2953,7 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/str-split-serial-space-char.rs'
 
 [benchmarks."rayon_1_0_0::str_split::serial_space_fn"]
-runner = 'wilhelm6'
+runner = 'wilhelm6-2'
 name = 'str_split::serial_space_fn'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/str-split-serial-space-fn.rs'
@@ -3024,7 +3025,7 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-filtered-with-fold.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i_filtered::with_linked_list_collect_vec"]
-runner = 'wilhelm6'
+runner = 'wilhelm6-2'
 name = 'vec_collect::vec_i_filtered::with_linked_list_collect_vec'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-filtered-with-linked-list-collect-vec.rs'
@@ -3036,7 +3037,7 @@ crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-filtered-with-linked-list-collect-vec-sized.rs'
 
 [benchmarks."rayon_1_0_0::vec_collect::vec_i_filtered::with_linked_list_map_reduce_vec_sized"]
-runner = 'wilhelm6'
+runner = 'wilhelm6-2'
 name = 'vec_collect::vec_i_filtered::with_linked_list_map_reduce_vec_sized'
 crate = 'rayon_1_0_0'
 entrypoint_path = 'benches/rayon_1_0_0/src/bin/vec-collect-vec-i-filtered-with-linked-list-map-reduce-vec-sized.rs'
@@ -3078,13 +3079,13 @@ crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-anchored-literal-short-non-match.rs'
 
 [benchmarks."regex_0_2_6::misc::easy0_1K"]
-runner = 'wilhelm6'
+runner = 'wilhelm6-2'
 name = 'misc::easy0_1K'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-easy0-1k.rs'
 
 [benchmarks."regex_0_2_6::misc::easy0_1MB"]
-runner = 'wilhelm6'
+runner = 'wilhelm6-2'
 name = 'misc::easy0_1MB'
 crate = 'regex_0_2_6'
 entrypoint_path = 'benches/regex_0_2_6/src/bin/misc-easy0-1mb.rs'
